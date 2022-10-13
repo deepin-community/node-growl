@@ -1,0 +1,43 @@
+node-growl (1.10.5-3) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Set debhelper-compat version in Build-Depends
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse
+  * Remove constraints unnecessary since buster:
+    + Build-Depends: Drop versioned constraint on nodejs
+  * Bump debhelper from old 11 to 13
+  * Update standards version to 4.5.1, no changes needed
+
+  [ Yadd ]
+  * Update standards version to 4.6.0, no changes needed
+  * Add "Rules-Requires-Root: no"
+  * Fix debian/watch
+
+ -- Yadd <yadd@debian.org>  Mon, 15 Nov 2021 09:07:03 +0100
+
+node-growl (1.10.5-2) unstable; urgency=medium
+
+  * Team upload
+  * Fix watch file due to spurious upstream version .1.10.3
+
+ -- Bastien Roucariès <rouca@debian.org>  Wed, 08 Aug 2018 23:09:35 +0200
+
+node-growl (1.10.5-1) unstable; urgency=medium
+
+  * Team upload
+  * Bug fix: "New upstream version", thanks to Leo Iannacone
+    (Closes: #763988).
+  * Bug fix: "CVE-2017-16042: Does not properly sanitize input before
+    passing it to exec", thanks to Salvatore Bonaccorso (Closes: #900868).
+  * Bump compat and policy
+
+ -- Bastien Roucariès <rouca@debian.org>  Tue, 07 Aug 2018 14:35:18 +0200
+
+node-growl (1.7.0-1) unstable; urgency=low
+
+  * Initial release (closes: #704930).
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.hu>  Sun, 07 Apr 2013 21:21:47 +0200

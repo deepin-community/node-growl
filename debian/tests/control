@@ -1,0 +1,2 @@
+Tests: require
+Depends: node-growl, nodejs (>= 6)
