@@ -1,3 +1,11 @@
+node-growl (1.10.5-4) unstable; urgency=medium
+
+  * Team upload
+  * Drop dependency to nodejs
+  * use dh-sequence-nodejs auto test & install
+
+ -- Yadd <yadd@debian.org>  Sat, 15 Jan 2022 11:00:18 +0100
+
 node-growl (1.10.5-3) unstable; urgency=medium
 
   * Team upload
